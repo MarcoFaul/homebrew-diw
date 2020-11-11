@@ -5,13 +5,8 @@ class Diw < Formula
   version "0.0.3.3"
   sha256 "1d25656ebc7746500ead45ac3669de5664ba713de753bf4a8e7141fbf4a1d849"
 
-  depends_on "composer"
-
   def install
-    composer install
     prefix.install Dir["*"]
-    bin.install 'diw'
-    doc.install 'README'
   end
 
   def caveats
