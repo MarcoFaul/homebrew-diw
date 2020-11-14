@@ -1,9 +1,9 @@
 class Diw < Formula
   desc "Diw is a CLI utility"
   homepage "https://dasistweb.de"
-  url "https://github.com/MarcoFaul/diw/archive/v0.0.6.0.tar.gz"
-  version "0.0.6.0"
-  sha256 "a29929eb4df49058f319a7dd2ad706ba88b6db278c346041889c724dd61d50e8"
+  url "https://github.com/MarcoFaul/diw/archive/v0.1.5.tar.gz"
+  version "0.1.5"
+  sha256 "8113bae12b60996354e6711bf8ac38fc2c2dd398bb28299808f9b2087e308bfb"
 
   def install
     prefix.install Dir["*"]
