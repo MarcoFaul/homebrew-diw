@@ -1,9 +1,9 @@
 class Diw < Formula
-  desc "Diw is a CLI utility"
+  desc "DIW is a CLI utility helper tool."
   homepage "https://dasistweb.de"
-  url "https://github.com/MarcoFaul/diw/releases/download/v0.8.6.0/diw-0.8.6.0.tar.gz"
-  version "0.8.6.0"
-  sha256 "cc1ed619b305b0494ea687c89771b751228167bb52980db6108b525cddb44763"
+  url "https://github.com/MarcoFaul/diw/archive/dev-9999.tar.gz"
+  version "dev-9999"
+  sha256 "1d25656ebc7746500ead45ac3669de5664ba713de753bf4a8e7141fbf4a1d849"
 
   def install
     prefix.install Dir["*"]
@@ -11,7 +11,7 @@ class Diw < Formula
 
   def caveats
     <<~EOS
-      Diw is a CLI utility made for DIW
+      Diw is a CLI utility helper tool made for DIW
 
       To start diw simply run:
 
