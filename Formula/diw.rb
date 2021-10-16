@@ -1,9 +1,9 @@
 class Diw < Formula
   desc "DIW is a CLI utility helper tool."
   homepage "https://dasistweb.de"
-  url "https://github.com/MarcoFaul/diw/releases/download/v0.9.3.2/diw-0.9.3.2.tar.gz"
-  version "0.9.3.2"
-  sha256 "a78d7e14839b0e5f33fa017a384fd2dbd4f2da64c51de0df6dc512e1f3dc64a0"
+  url "https://github.com/MarcoFaul/diw/releases/download/v0.9.4.0/diw-0.9.4.0.tar.gz"
+  version "0.9.4.0"
+  sha256 "b0fcc0ccc59947b96c0d66622b6030670ef6cb921038a7f16414a31ba5a89537"
   license ""
   depends_on "terminal-notifier"
   depends_on "domt4/autoupdate"
