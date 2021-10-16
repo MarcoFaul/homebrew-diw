@@ -5,6 +5,11 @@ class Diw < Formula
   version "0.9.3.2"
   sha256 "a78d7e14839b0e5f33fa017a384fd2dbd4f2da64c51de0df6dc512e1f3dc64a0"
   license ""
+  depends_on "terminal-notifier"
+  depends_on "domt4/autoupdate"
+  def install
+    prefix.install Dir["*"]
+  end
 
   def post_install
     if !(File.exist?((etc/"diw-override.config.yaml"))) then
@@ -18,11 +23,6 @@ class Diw < Formula
   EOS
   end
 
-
-  def install
-    prefix.install Dir["*"]
-  end
-
   def caveats
     <<~EOS
       Diw is a CLI utility helper tool made for DIW
@@ -33,6 +33,8 @@ class Diw < Formula
 
         Documentation is available at: https://diw-tool.netlify.app/
         Created by Marco Faul
+
+        If you like to get automatic updates execute: brew autoupdate –start –upgrade –enable-notification
     EOS
   end
 
