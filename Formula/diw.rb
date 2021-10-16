@@ -4,7 +4,6 @@ class Diw < Formula
   url "https://github.com/MarcoFaul/diw/releases/download/v0.9.4.1/diw-0.9.4.1.tar.gz"
   version "0.9.4.1"
   sha256 "b23257901746c69b60737f75e865b5ece9e1fe4726a89e5056cb28489dad2283"
-  license ""
 
   def install
     prefix.install Dir["*"]
