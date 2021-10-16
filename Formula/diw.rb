@@ -16,8 +16,6 @@ class Diw < Formula
   end
 
   def override_conf; <<~EOS
-    docker:
-      container:
   EOS
   end
 
