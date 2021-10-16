@@ -5,8 +5,7 @@ class Diw < Formula
   version "0.9.4.0"
   sha256 "b0fcc0ccc59947b96c0d66622b6030670ef6cb921038a7f16414a31ba5a89537"
   license ""
-  depends_on "terminal-notifier"
-  depends_on "domt4/autoupdate"
+
   def install
     prefix.install Dir["*"]
   end
@@ -33,8 +32,6 @@ class Diw < Formula
 
         Documentation is available at: https://diw-tool.netlify.app/
         Created by Marco Faul
-
-        If you like to get automatic updates execute: brew autoupdate –start –upgrade –enable-notification
     EOS
   end
 
